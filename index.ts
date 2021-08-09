@@ -1,4 +1,4 @@
-import { Observable, of } from 'rxjs';
+import { Observable, EMPTY, of } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 
 const failingHttpRequest$ = new Observable(subscriber => {
